@@ -3,5 +3,8 @@ import "./styles.css";
 import initDropdown from "./modules/dropdown";
 
 const testDropdownButtonSelector = "#dropdownButton";
-const testDropdownContentSelector = ".dropdownContent";
+const testDropdownContentSelector = "#dropdownContentOne";
 initDropdown(testDropdownButtonSelector, testDropdownContentSelector);
+const testDropdownButtonSelectorTwo = "#dropdownButtonTwo";
+const testDropdownContentSelectorTwo = "#dropdownContentTwo";
+initDropdown(testDropdownButtonSelectorTwo, testDropdownContentSelectorTwo);
